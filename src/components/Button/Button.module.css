@@ -1,0 +1,28 @@
+.btn {
+  font: inherit;
+  font-weight: 700;
+  padding: 0.55rem 1rem;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.primary {
+  background: #0f6b4c;
+  color: #fff;
+}
+
+.secondary {
+  background: #fff;
+  color: #0f6b4c;
+  border-color: #0f6b4c;
+}
+
+.btn:hover {
+  filter: brightness(1.05);
+}
+
+.btn:focus-visible {
+  outline: 2px solid #c45c26;
+  outline-offset: 2px;
+}
